@@ -1,0 +1,149 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  header {
+    background: #444;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  header h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #f39c12;
+  }
+  
+  .section {
+    padding: 3rem 0;
+  }
+  
+  .section h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #444;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .project {
+    background: #f4f4f4;
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+  .project h3 {
+    color: #444;
+    margin-bottom: 0.5rem;
+  }
+  
+  .project p {
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .certificates-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
+  
+  .certificate {
+    text-align: center;
+  }
+  
+  .certificate img {
+    width: 100%; /* Adjust to fit the grid */
+    max-width: 150px; /* Reduce size */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    transition: transform 0.3s ease;
+  }
+  
+  .certificate img:hover {
+    transform: scale(1.1); /* Add a hover effect */
+  }
+  
+  .certificate a {
+    text-decoration: none;
+  }
+  
+  .certificate a:hover {
+    cursor: pointer;
+  }
+  
+  
+  footer {
+    background: #444;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+  }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .about-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ddd;
+  }
+
+  .about-text {
+    flex: 1;
+  }
+  
+  .about-text p {
+    margin-bottom: 10px;
+  }
