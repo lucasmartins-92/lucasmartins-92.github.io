@@ -1,0 +1,12 @@
+/* Adicione aqui suas regras de estilo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+/* Adicione estilos para as outras seções */
